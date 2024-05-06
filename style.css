@@ -1,0 +1,343 @@
+body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    color: antiquewhite;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+/* ================================================= */
+
+
+.d4 {
+    position: relative;
+    color: white;
+    text-align: center;
+    bottom: 9em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+img {
+    position: relative;
+    width: 100%;
+    padding: auto;
+}
+
+.logo {
+    position: relative;
+    align-items: center;
+    width: 20px;
+}
+nav {
+    align-items: center;
+}
+li {
+    list-style: none;
+    left: 40%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    background-color: #d343e6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    opacity: 100%;
+    transition: 0.5s;
+    border-radius: 6px;
+    font-size: 20px;
+    border: 2.2px solid black;
+}
+
+li :hover{
+    letter-spacing: 0.15em;
+    color: white;
+}
+
+
+.navigasi {
+    position: relative;
+    background: linear-gradient(to right,  #a2a2c7, #d343e6);
+    color: #fff7f1;
+    align-items: center;
+    padding: 1px;
+    bottom: 38em;
+}
+
+.pnmm {
+    position: absolute;
+    bottom: 9px;
+    left: 28px;
+    font-size: 2em;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.linkk {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    font-size: 1em;
+    padding-left: 80%;
+}
+
+
+
+
+/* POLTEKNIK NEGERI MADIUN */
+.section {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+/* POLITEKNIK NEGERI MADIUN */
+
+
+
+
+/* BPH TRPL */
+.bph {
+    padding-bottom: 10em;
+    background-color: #5A159C;
+}
+
+.navbarbph {
+    position: relative;
+    border: 2px solid #1E1E1EF2;
+    padding: 1px;
+    background-color: #1E1E1EF2;
+    text-align: center;
+    top: 20px;
+}
+
+.navbarbph h3 {
+    font-size: 99%;
+    color: white;
+    background-color: #1E1E1EF2;
+    border-radius: 20%;
+    display: inline;
+    padding: 10px;
+}
+
+.anggotabph {
+    position: relative;
+    padding: 2em;
+    top: 6em;
+    display: flex;
+    gap: 4.2em;
+}
+
+.ketua {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.wakil {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.bendahara1 {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.bendahara2 {
+    position: relative;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    width: 140px;
+    height: 70px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.periode {
+    position: relative;
+    text-align: center;
+    top: 10em;
+    color: white;
+}
+/* BPH TRPL */
+
+
+
+
+.gap {
+    padding: 7em;
+}
+
+
+
+/* PENJELASAN SINGKAT TRPL */
+.informasi {
+    padding: 1em;
+}
+
+.isi {
+    position: relative;
+    margin: auto;
+    border: 1px solid #5A159C;
+    background-color: #5A159C;
+    border-radius: 13px;
+    height: 9em;
+    width: 55em;
+    right: 16em;
+}
+
+.isi p {
+    text-align: center;
+    font-size: 15;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    padding-left: 29em;
+    padding-top: 9px;
+}
+/* PENJELASAN SINGKAT TRPL */
+
+
+
+
+.gap2 {
+    height: 8em;
+    border: 1px solid;
+}
+
+.validasi {
+    height: 22em;
+    background-color: #8b6aaa;
+}
+
+.validasi h1 {
+    color: white;
+    text-align: center;
+    font-family: monospace;
+}
+
+.grid {
+    display: flex;
+    gap: 5px;
+}
+
+.grid-item {
+    position: relative;
+    top: 59px;
+    left: 12px;
+    display: flex;
+    gap: 1em;
+    border: 20px;
+    border: 3px solid white;
+    height: 8em;
+    width: 20em;
+    border-radius: 20px;
+}
+
+.grid-item p {
+    color: white;
+    text-align: center;
+}
+
+.gap3 {
+    height: 8em;
+    border: 1px;
+}
+
+.gedung {
+    border: 140px;
+}
+
+.logotrpl {
+    position: absolute;
+    width: 20em;
+    top: 4%;
+    right: 73%;
+}
+
+.posisi {
+    position: relative;
+}
+
+.linklogo {
+    position: absolute;
+    top: 174px;
+    left: 4rem;
+    width: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.kontak {
+    position: absolute;
+    bottom: 10rem;
+    left: 36rem;
+    height: 20rem;
+    inline-size: 20rem;
+}
+
+.kontak h2 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontak h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kontak p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* Scroll Bar */
+::-webkit-scrollbar{
+    width: 8px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background-color: #d1e5ff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#642bff, #ff22e6);
+}
+/* Scroll Bar */
+
